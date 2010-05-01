@@ -51,7 +51,7 @@ There are really 4 steps to setting it up with your projects.
         "django.core.context_processors.i18n",
         "django.core.context_processors.media",
         "django.core.context_processors.request",
-        "django_pdf.context_processors.output_format", #<-- this line
+        "django_pdf.context_processors.check_format", #<-- this line
     )
 
 That's it, now all it takes to generate a PDF version of your page is to add:

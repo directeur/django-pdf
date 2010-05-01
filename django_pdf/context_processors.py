@@ -6,7 +6,7 @@ TEMPLATE_PDF_CHECK = getattr(settings, 'TEMPLATE_PDF_CHECK',
 'DJANGO_PDF_OUTPUT')
 
 
-def output_format(request):
+def check_format(request):
     """
     Adds a TEMPLATE_PDF_CHECK variable to the context.
     This var will normally be used in templates like this:
